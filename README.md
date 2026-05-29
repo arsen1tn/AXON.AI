@@ -3,7 +3,7 @@
 AXON is a personal AI assistant designed to help with everyday tasks, productivity, learning, and automation.  
 It is built to be customizable and expandable, allowing users to adapt it to their own workflow.
 
----nigger
+---
 
 ## 🚀 Features
 
