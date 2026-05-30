@@ -3,6 +3,7 @@ import requests
 
 messages = []
 
+SYSTEM_PROMPT = "negr"
 app = FastAPI()
 
  # USER MESSAGE
@@ -10,6 +11,12 @@ app = FastAPI()
 @app.post("/chat")
 def chat(data: dict):
     user_message = data["message"]
+    
+    if not messages:
+        messages.append({
+            "role": "system", "content": SYSTEM_PROMPT
+            })
+        
     messages.append({
         "role": "user", "content": user_message
         })
