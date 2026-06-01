@@ -28,7 +28,7 @@ def chat(data: dict):
         })
     
     response = requests.post(
-        "http://localhost:11434/api/chat", json={"model": "qwen2.5:3b", "messages": messages,
+        "http://localhost:11434/api/chat", json={"model": "gemma3:4b", "messages": messages,
             "stream": False
                                                  }
         )
