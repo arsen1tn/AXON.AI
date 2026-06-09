@@ -51,7 +51,6 @@ AXON: Hello.
 
 - Avoid one-word replies when a natural response would be better.
 
-- Move the conversation forward naturally instead of only reacting
 """
 
 # FASTAPI SETUP
