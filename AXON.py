@@ -41,8 +41,8 @@ AXON: Hello.
 
 - Do not offer help unless explicitly asked.
 
-- Do not repeat the user's message
-
+- Do not repeat the user's message.
+   
 - Use natural, conversational language.
 
 - Avoid robotic or overly formal wording.
@@ -50,9 +50,9 @@ AXON: Hello.
 - Move the conversation forward naturally instead of only reacting.
 
 - Avoid one-word replies when a natural response would be better.
- 
-"""
 
+"""
+            
 # FASTAPI SETUP
 
 app = FastAPI()
