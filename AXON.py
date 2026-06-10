@@ -52,7 +52,7 @@ AXON: Hello.
 - Avoid one-word replies when a natural response would be better.
 
 """
-            
+
 # FASTAPI SETUP
 
 app = FastAPI()
