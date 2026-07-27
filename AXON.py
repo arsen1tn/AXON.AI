@@ -97,3 +97,38 @@ def chat(data: dict):
 def reset():
     messages.clear()
     return {"status": "memory cleared"}
+
+
+#(venv) PS E:\Codes\MY PROJECTS\My_projects_main> python -m pip list
+#Package            Version
+#------------------ ---------
+#aiofiles           25.1.0
+#aiogram            3.28.2
+#aiohappyeyeballs   2.6.2
+#aiohttp            3.13.5
+#aiosignal          1.4.0
+#annotated-doc      0.0.4
+#annotated-types    0.7.0
+#anyio              4.13.0
+#attrs              26.1.0
+#certifi            2026.5.20
+#charset-normalizer 3.4.7
+#click              8.4.1
+#colorama           0.4.6
+#fastapi            0.136.3
+#frozenlist         1.8.0
+#h11                0.16.0
+#idna               3.17
+#magic-filter       1.0.12
+#multidict          6.7.1
+#pip                26.1.1
+#propcache          0.5.2
+#pydantic           2.13.4
+#pydantic_core      2.46.4
+#requests           2.34.2
+#starlette          1.2.0
+#typing_extensions  4.15.0
+#typing-inspection  0.4.2
+#urllib3            2.7.0
+#uvicorn            0.48.0
+#yarl               1.24.2
