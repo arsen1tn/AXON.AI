@@ -4,7 +4,7 @@ import asyncio
 import requests
 # TOKEN
 
-TOKEN = "860268249:AAHzfoC56GrXeqzxFgAdHf2YH29gLTXG8mk"
+TOKEN = "8"
 
 bot = Bot(token=TOKEN)
 
